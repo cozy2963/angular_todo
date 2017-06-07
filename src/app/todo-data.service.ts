@@ -30,7 +30,7 @@ export class TodoDataService {
     return todo;
   }
 
-  gitAllTodos(): Todo[] {
+  getAllTodos(): Todo[] {
     return this.todos;
   }
 
