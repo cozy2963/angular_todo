@@ -10,7 +10,7 @@ describe('Todo', () => {
       title: 'hello',
       complete: true
     });
-    expect(todo.title).toEqual('Hello');
+    expect(todo.title).toEqual('hello');
     expect(todo.complete).toEqual(true);
   })
 });
